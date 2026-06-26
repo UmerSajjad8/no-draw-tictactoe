@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _tm.addListener(_onProfiles);
     _pm.ensureLoaded();
     _tm.ensureLoaded();
-    if (!kIsWeb) _loadBanner();
+    //if (!kIsWeb) _loadBanner();
   }
 
   void _onProfiles() {

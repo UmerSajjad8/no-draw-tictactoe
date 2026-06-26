@@ -17,7 +17,7 @@ Future<void> main() async {
   await ProfileManager.instance.ensureLoaded();
   await ThemeManager.instance.ensureLoaded();
   Sfx.instance.enabled = ThemeManager.instance.soundEnabled;
-  unawaited(AdsService.instance.init());
+  //unawaited(AdsService.instance.init());
   runApp(const NoDrawTttApp());
 }
 
